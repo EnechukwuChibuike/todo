@@ -1,3 +1,16 @@
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker
+      .register("/service-worker.js")
+      .then((registration) => {
+        console.log("service worker registered", registration);
+      })
+      .catch((err) => {
+        console.error("service worker registration failed", err);
+      });
+  });
+}
+
 const form = document.querySelector("#form");
 const input = document.querySelector("#input");
 const ol = document.querySelector("#ol");

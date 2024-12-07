@@ -1,0 +1,12 @@
+{
+  "name": "Todo App",
+  "short_name": "todo",
+  "description": "This is a todo app",
+  "icon": [
+    {
+      "src": "favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
