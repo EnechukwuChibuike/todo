@@ -1,0 +1,77 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+header {
+  height: 15vh;
+  background-color: rgb(0, 204, 255);
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  border: 1px solid gray;
+  width: fit-content;
+  height: 8vh;
+}
+
+input {
+  width: 40vw;
+  height: inherit;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+
+button {
+  width: 10vw;
+  height: inherit;
+  background-color: rgb(0, 204, 255);
+  border: none;
+  font-weight: bold;
+}
+
+.undo,
+.restore {
+  height: fit-content;
+  padding: 10px;
+  position: absolute;
+  right: 20px;
+  margin-top: 30px;
+}
+
+.restore {
+  margin-top: 80px;
+}
+
+main {
+  display: grid;
+  height: 85vh;
+  justify-items: center;
+  align-content: center;
+}
+
+#ol {
+  margin-top: 20px;
+  width: 50vw;
+}
+
+#ol div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid gray;
+  height: 5vh;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 30px;
+}
